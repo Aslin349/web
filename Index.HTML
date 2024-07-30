@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Mi Primera ONG</title>
+    <style type="text/css">
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color:#e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos de encabezado */
+        #header {
+            background-color: #00796b;
+            color: #fff;
+            padding: 20px;
+        }
+
+        #header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        /* Estilos de navegación */
+        #navigation {
+            background-color: #8b4513;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        #navigation ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navigation li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        #navigation li:last-child {
+            margin-right: 0;
+        }
+
+        #navigation a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #navigation a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos de contenido */
+        #content {
+            padding: 20px;
+        }
+
+        /* Estilos de pie de página */
+        #footer {
+            background-color: #00766b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilos de enlaces */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+      
+      /* Estilo para las secciones */
+        section {
+            padding: 60px 20px;
+            display: none; /* Ocultar todas las secciones por defecto */
+        }
+        section.active {
+            display: block; /* Mostrar solo la sección activa */
+        }
+      
+        /* Estilos para la imagen */
+        .container {
+            overflow: auto;
+        }
+        .image {
+            float: right;
+            margin-right: 10px;
+        }
+        /* Estilos para las redes sociales */
+        .redes-sociales {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .red-social img {
+            width: 40px; /* Ajusta el ancho de los iconos según sea necesario */
+            height: auto; /* Mantener la proporción de aspecto */
+        }
+        
+        .red-social {
+            display: inline-block;
+            margin: 10px;
+          }
+
+        
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1><CENTER>Agua Potable</h1></CENTER>
+    </div>
+
+    <div id="navigation">
+        <nav>
+           <li><a href="#Index.HTML"
+         onclick="showSection(event,'Agua Potable')">Agua Potable</a></li>
+         <li>  <a href="#Unete"
+         onclick="showSection(event,'Unete')">Unete</a></li>
+           <li><a href="#Publica"
+         onclick="showSection(event,'Publica')">Publica</a></li>
+          <li> <a href="#Haz tu Donacion"
+         onclick="showSection(event,'Haz tu Donacion')">Haz tu Donacion</a></li>
+     </nav>
+       </div>
+              
+    <section id="Agua Potable" class="active">
+        <div class="container">
+            <img src="Agua.png" alt="Descripción de la imagen" class="image">
+            <div class="text">
+                <h1> Quienes Somos</h1>
+                <p> Fundación Aqua Potable nació en 2024 con la voluntad de convertirse 
+                    en un centro de referencia en el impulso de la educación, el 
+                    apoyo a la sostenibilidad y la difusión del conocimiento, con 
+                    el objetivo de avanzar hacia un modelo sostenible y respetuoso 
+                    con el medio ambiente, la biodiversidad y el desarrollo digno y 
+                    equitativo de las personas. Nuestros valores han continuado firmes desde ese año, promoviendo una transformación económica y 
+                    social sostenible y de generación de oportunidades.
+
+                    En Fundación Agua Potable queremos contribuir a dar respuesta al desafío de optimizar 
+                    los recursos naturales, y muy especialmente el uso de un recurso escaso y esencial para la vida como es el agua.
+
+                    Aqua Potable, la Fundación del agua, apuesta por el desarrollo sostenible, sin duda la mejor opción para satisfacer 
+                    las necesidades del presente sin comprometer las de futuras generaciones.
+
+                    Este concepto, en su triple vertiente –ecológica, económica y social- implica un cambio importante en la actual escala de 
+                    valores y actitudes, ya sean desde la óptica de la sostenibilidad medioambiental y de utilización de los recursos naturales 
+                    como del desarrollo económico y del progreso social. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Unete">
+        <p>Visita <a href="https://chat.whatsapp.com/H17Fxj3Y2YCKmgzWnREkWW">este enlace</a> para más información</p>
+    </section>
+
+    <section id="Publica">
+        <h1>Publica</h1>
+        <div class="container">
+            <img src="Proyecto1.jpg" alt="Descripción de la imagen" class="image">
+        </div>
+    </section>
+
+    <section id="Haz Donacion">
+        <p>Número de cuenta: 0087653224</p>
+    </section>
+
+    <div class="redes-sociales">
+        <a href="https://www.facebook.com/aslin.castro.14" class="red-social facebook"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/@melissa20____?is_from_webapp=1&sender_device=pc" class="red-social tiktok"><img src="tiktok.png" alt="TikTok></a>
+        <a href="https://www.instagram.com/mely_fer17?igsh=MThuZGU0NWs0MXA0eA==" class="red-social instagram"><img src="instagram.png" alt="Instagram"></a>
+        <!-- Añade más redes sociales si lo deseas -->
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 Mi Sitio Web</p>
+    </div>
+
+    <script>
+        function showSection(event, sectionId) {
+            event.preventDefault();
+            // Ocultar todas las secciones
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            // Mostrar la sección seleccionada
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
